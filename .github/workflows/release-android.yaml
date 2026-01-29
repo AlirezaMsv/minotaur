@@ -1,9 +1,9 @@
 name: Build for Android
 on:
   push:
-    branches:
-      - 'main'
-      - 'dev'
+    tags:
+      - 'v*.*.*'
+      - 'android-v*.*.*'
 
 env:
   CI: false
