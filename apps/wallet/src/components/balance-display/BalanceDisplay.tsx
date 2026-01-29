@@ -37,7 +37,6 @@ const BalanceDisplay = (props: BalanceDisplayPropsType) => {
   const symbol: SymbolType = useSelector(
     (state: GlobalStateType) => state.config.symbol,
   );
-  
   return symbol?.direction === 'l'
     ? `${symbol.symbol} ${value.toLocaleString()}`
     : `${value.toLocaleString()} ${symbol.symbol}`;
