@@ -31,8 +31,8 @@ PODS:
     - PromisesObjC (< 3.0, >= 1.2)
   - GoogleMLKit/BarcodeScanning (7.0.0):
     - GoogleMLKit/MLKitCore
-    - MLKitBarcodeScanning (~> 3.0.0)
-  - GoogleMLKit/MLKitCore (4.0.0):
+    - MLKitBarcodeScanning (~> 7.0.0)
+  - GoogleMLKit/MLKitCore (7.0.0):
     - MLKitCommon (~> 9.0.0)
   - GoogleToolboxForMac/DebugUtils (2.3.2):
     - GoogleToolboxForMac/Defines (= 2.3.2)
