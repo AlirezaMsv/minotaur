@@ -2,8 +2,8 @@ import react from '@vitejs/plugin-react';
 
 import { defineConfig } from 'vite';
 import mkcert from 'vite-plugin-mkcert';
-import wasm from 'vite-plugin-wasm';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
+import wasm from 'vite-plugin-wasm';
 
 // import topLevelAwait from 'vite-plugin-top-level-await';
 
@@ -16,17 +16,17 @@ export default defineConfig({
     target: 'es2022',
   },
   plugins: [
-    react(), 
-    wasm(), 
+    react(),
+    wasm(),
     mkcert(),
     nodePolyfills({
       globals: {
-        Buffer: true, 
+        Buffer: true,
         global: true,
         process: true,
       },
       protocolImports: true,
-    })
+    }),
   ],
   optimizeDeps: {
     include: ['crypto-js'],
