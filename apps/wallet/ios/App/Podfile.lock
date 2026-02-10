@@ -1,35 +1,35 @@
 PODS:
-  - Capacitor (5.7.8):
+  - Capacitor (7.0.0):
     - CapacitorCordova
-  - CapacitorApp (5.0.8):
+  - CapacitorApp (7.1.1):
     - Capacitor
-  - CapacitorBrowser (5.2.1):
+  - CapacitorBrowser (7.0.3):
     - Capacitor
-  - CapacitorCamera (5.0.10):
+  - CapacitorCamera (7.0.3):
     - Capacitor
-  - CapacitorClipboard (5.0.8):
+  - CapacitorClipboard (7.0.3):
     - Capacitor
-  - CapacitorCommunitySqlite (5.6.1):
+  - CapacitorCommunitySqlite (7.0.3):
     - Capacitor
     - SQLCipher
     - ZIPFoundation
-  - CapacitorCordova (5.7.8)
-  - CapacitorFilesystem (5.2.2):
+  - CapacitorCordova (7.0.0)
+  - CapacitorFilesystem (7.1.16):
     - Capacitor
-  - CapacitorMlkitBarcodeScanning (5.4.0):
+  - CapacitorMlkitBarcodeScanning (7.5.0):
     - Capacitor
-    - GoogleMLKit/BarcodeScanning (= 4.0.0)
-  - CapacitorPluginSafeArea (2.0.6):
+    - GoogleMLKit/BarcodeScanning (= 7.0.0)
+  - CapacitorPluginSafeArea (4.0.3):
     - Capacitor
-  - CapacitorStatusBar (5.0.8):
+  - CapacitorStatusBar (7.0.4):
     - Capacitor
-  - CapacitorToast (5.0.8):
+  - CapacitorToast (7.0.3):
     - Capacitor
   - GoogleDataTransport (9.2.5):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMLKit/BarcodeScanning (4.0.0):
+  - GoogleMLKit/BarcodeScanning (7.0.0):
     - GoogleMLKit/MLKitCore
     - MLKitBarcodeScanning (~> 3.0.0)
   - GoogleMLKit/MLKitCore (4.0.0):
